@@ -1,0 +1,37 @@
+{
+  "name": "ivan-chkv/yii2-jui-autocomplete",
+  "description": "Yii 2 jQuery UI AutoComplete Widget",
+  "keywords": [
+    "yii2",
+    "jquery",
+    "jquery-ui",
+    "autocomplete"
+  ],
+  "homepage": "http://jqueryui.com/autocomplete/",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ivan Chistyakov",
+      "email": "ivan.chkv@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4",
+    "yiisoft/yii2-jui": "2.*"
+  },
+  "require-dev": {
+    "ivan-chkv/yii2-phpunit": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\jui\\autosearch\\": ""
+    }
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}
